@@ -1,0 +1,78 @@
+.search__container{
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.search__header {
+    position: absolute;   
+    padding-top: 60px; 
+    height: 100%;
+    text-align: center; 
+    width: 100%;
+    color: whitesmoke;
+    background: rgba(29, 110, 26, 0.4);
+}
+
+.search__header::before{
+   display: inline-block;
+   height: 100%;
+}
+
+
+
+.img__moviePosters{
+    display: block;
+    width: 100%;
+}
+
+.input__container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 10px;
+    border-radius: 999px;
+    width: 50vw;
+    margin: 0 auto;
+    max-width: 560px;
+}
+
+.input__container > input {
+    flex: 1;
+    font-size: medium;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.search__button{
+    border: none;
+    background: none;
+}
+
+.input__container > input:focus{
+    outline-width: 0;
+}
+
+.search__inputIcon{
+    color: gray;
+}
+
+.results{
+    padding-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: calc(100vh - 350px);
+    justify-content: center;
+}
+
+.results::-webkit-scrollbar {
+    display: none; 
+}
+
+.result {
+    width: calc(100%/4);
+}
+
+

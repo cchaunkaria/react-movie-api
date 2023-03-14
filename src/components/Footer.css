@@ -1,0 +1,26 @@
+footer {
+    margin-top: auto;
+}
+
+.footer__container{
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    width: 8em;
+    height: 8em;
+    align-items: center;
+}
+
+.footer__link{
+    padding: 0 16px;
+    text-decoration: none;
+    color: var(--flicker-color);
+    font-weight: 700;
+}
+
+.footer__copyright{
+    font-weight: 700;
+    padding-top: 8px;
+}
